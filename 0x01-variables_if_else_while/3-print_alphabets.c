@@ -4,7 +4,7 @@
  * Write a program that prints the alphabet in lowercase
  *  then in uppercase, followed by a new line.
  */
-int void(main)
+int main(void)
 {
 int ch;
 for (ch = 97; ch <= 122; ch++)
