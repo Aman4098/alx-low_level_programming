@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/**Write a program that prints all single digit numbers of base 10 starting from
- *  followed by a new line.
+ /**
+ *Write a program that prints all single digit numbers of base 
+ *10 starting from
+ *followed by a new line.
  */
 int main(void)
 {
