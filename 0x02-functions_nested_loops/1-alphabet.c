@@ -2,7 +2,7 @@
 
 /**
  *main -prints the alphabet, in lowercase,
- *Return - always o
+ *return - always o
  */
 
 void print_alphabet(void)
