@@ -2,17 +2,15 @@
 
                                                                                                                                                          
 
-/**                                                                                                                                                      
+/**                                                              
+ *function that checks for alphabetic character.                                                                                                         
  *
- *  *function that checks for alphabetic character.                                                                                                         
- *
- *   *Returns 1 if c is a letter, lowercase or uppercase                                                                                                     
- *
- *    */                                                                                                                                                      
+ *Returns 1 if c is a letter, lowercase or uppercase               
+  */                                                                                                                                                      
 
-int _isalpha(int c)                                                                                                                                      
+ int _isalpha(int c)                                                                                                                                      
 
 {                                                                                                                                                        
 
-	        return (( c >= 'a' && c <= 'z')) || (c >='A' && c <= 'Z' ));
+	        return (( c >= 'a' && c <= 'z')) || ((c >='A' && c <= 'Z' ));
 }
