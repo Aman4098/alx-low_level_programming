@@ -16,9 +16,9 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 00)
 				{
-				sum =sum = j;
+				sum =sum + j;
 				}
-				next = J + k;
+				next = j + k;
 				j = k;
 				k = next;
 				}
