@@ -19,7 +19,8 @@ int print_sign(int n)
 	else
 	{
 		_putchar('_');
-	
+		return(-1)
+
 	}
 		
 }
