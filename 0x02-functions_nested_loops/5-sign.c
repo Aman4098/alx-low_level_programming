@@ -17,7 +17,8 @@ int print_sign(int n)
 		return (0);
 	}
 	else
-}
-		_putchar('_);
+	{
+		_putchar('_');
+	}
 		
 }
