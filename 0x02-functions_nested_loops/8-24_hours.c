@@ -1,7 +1,9 @@
 #include "main.h"
 
-
-
+/**
+ *main that prints every minute of the day of Jack Baure
+ *Return: 
+ */
 void jack_bauer(void)
 	int i,j;
 	for (i = 0; i < 24 ; i++)
@@ -21,7 +23,7 @@ void jack_bauer(void)
 		{
 			_putchar(':')
 			_putchar('0')
-			_putchar(j)
+			_putchar(j + '0' )
 		}
 		else if (j > 10)
 		{
@@ -29,9 +31,7 @@ void jack_bauer(void)
 			_putchar((j /10) + '0');
 			_putchar((j %10) + '0');
 		}
-		_putchar(i)
-		_putchar(:)
-		_putchar(j)
+		
 		}
 	}
 }
