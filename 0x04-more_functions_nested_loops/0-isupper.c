@@ -2,7 +2,7 @@
 
 /**
  *_isuper-> this is a function to check upper case
-
+ *@c: an integer 
  *Return : something but successes
  */
 int _isupper(int c)
