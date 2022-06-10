@@ -2,7 +2,7 @@
 
 /**
  * print_line -> printing line
- * @n; integer parameter
+ * @n: integer parameter
  */
 void print_line(int n)
 {
