@@ -2,13 +2,13 @@
 
 /**
  *print_diagonal -> print diagonal line
- * @size: integer paragme
+ * @n: integer paragme
  */
-void print_diagonal(int size)
+void print_diagonal(int n)
 {
 	int x;
 
-	if (size <= 0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
@@ -17,7 +17,10 @@ void print_diagonal(int size)
 			for (i = 0; i <= x; i++)
 				_putchar('_');
 			_putchar(92);
-			_pitchar('\n')
+			_putchar('\n')
+		}
+	}
+}
 
 
 
