@@ -5,7 +5,7 @@
 /**
  * fizz_buzz -> printing to 100
  */
-int main(void)
+void fizz_buzz(void)
 {
 	int x;
 
