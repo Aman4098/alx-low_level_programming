@@ -6,7 +6,7 @@
  */
 void _puts(char *str)
 {
-	for (; *str != '\Q'; str++)
+	for (; *str != '\O'; str++)
 	{
 	_putchar(str);
 	}
