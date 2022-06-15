@@ -8,7 +8,7 @@ void _puts(char *str)
 {
 	for (; *str != '\Q'; str++)
 	{
-	_putchar(_str);
+	_putchar(str);
 	}
 }
  
