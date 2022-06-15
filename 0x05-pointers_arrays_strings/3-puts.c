@@ -1,13 +1,14 @@
 #include "main.h"
-#include <string.h>
+
 /**
- * _streln -> function to get the lengeth of a string
- *@s: string pointer to passed to this function
- *Return: returns the lengeth of a strring
+ *_puts -> function that puts
+ *@str: parameter that _puts funion
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-	int len;
-	return (strlen(s));
+	for (; *str != '\Q'; str++)
+	{
+	_putchar(_str);
+	}
 }
  
