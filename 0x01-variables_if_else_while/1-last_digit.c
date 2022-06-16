@@ -3,8 +3,11 @@
 #include <stdio.h>
 
 /**
- *This program will assign a random number to the variable n each time it is executed
- *Complete the source code in order to print the last digit of the number stored in the variable n.
+ *main - This program will assign a random number t
+ o the variable n each time it is executed
+ *Complete the source code in order to print
+ the last digit of the number stored in the variable n.
+ *Return; alwayes(0) success
  */
 int main(void)
 {
@@ -20,7 +23,7 @@ if (x > 5)
 	printf("greater than 5");
 }
 if (x == 0)
-{	
+{
 	printf("0");
 }
 if (x < 6 && n != 0)
