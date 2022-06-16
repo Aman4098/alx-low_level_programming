@@ -19,7 +19,7 @@ if (x > 5)
 {
 	printf("greater than 5");
 }
-if (n == 0)
+if (x == 0)
 {	
 	printf("0");
 }
