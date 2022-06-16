@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * Write a program that prints the alphabet in lowercase
+ *main- Write a program that prints the alphabet in lowercase
  *  then in uppercase, followed by a new line.
+ *  Return: alwayes 0
  */
 int main(void)
 {
@@ -17,6 +18,6 @@ for (ch = 65; ch <= 90; ch++)
 }
 	putchar(10);
 
-	return (0);	
-}	
+	return (0);
+}
 
