@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - take random number and check if it is greater than
- * 		lesser than or equal to zero 
+ * main - take random number and check if it is grarter or
+ * lesserr than
  *Return: alwayes(0)
  */
 int main(void)
@@ -19,6 +19,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	else
 		printf("%d is zero\n", n);
-	return(0);
+	return (0);
 }
-  		
