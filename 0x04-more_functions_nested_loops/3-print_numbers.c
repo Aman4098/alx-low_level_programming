@@ -25,10 +25,10 @@ void print_numbers(void)
 
 		{
 
-			putchar(n);
+			_putchar(n);
 
 		}
 
-		putchar(10);
+		_putchar(10);
 
 }
