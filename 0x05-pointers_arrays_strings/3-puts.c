@@ -1,33 +1,43 @@
-#include "main.h"
-
-
+#include <stdio.h>
 
 /**
  *
- *  *_strlen - returns the length of a string
+ *  * main - print if the number is postive, zero, or negative
  *
- *   * @s: string
+ *   *
  *
- *    *Return: returns length as integer;
+ *    * Description: using the main function
  *
- *     */
+ *     * this program prints "Programming is positive, zero, or negative
+ *
+ *      * Return: 0
+ *
+ *       */
 
-
-
-int _strlen(char *s)
+int main(void)
 
 {
 
-		int len = 0;
+	char ch;
 
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 
+	{
 
-			while (*(s + len) != '\0')
+			putchar(ch);
 
-						len++;
+	}
 
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
 
+	{
 
-				return (len);
+			putchar(ch);
+
+	}
+
+	putchar('\n');
+
+	return (0);
 
 }
