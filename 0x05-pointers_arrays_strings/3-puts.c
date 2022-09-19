@@ -1,43 +1,43 @@
 #include <stdio.h>
 
+#include "main.h"
+
+
+
 /**
  *
- *  * main - print if the number is postive, zero, or negative
+ *  *_puts - prints a string
  *
- *   *
+ *   * @str: string to print
  *
- *    * Description: using the main function
+ *    *
  *
- *     * this program prints "Programming is positive, zero, or negative
+ *     * Description: prints a string
  *
- *      * Return: 0
+ *      * On success: returns no error
  *
  *       */
 
-int main(void)
+
+
+void _puts(char *str)
 
 {
 
-	char ch;
+		int i = 0;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
 
-	{
 
-			putchar(ch);
+			while (*(str + i) != '\0')
 
-	}
+					{
 
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
+								putchar(*(str + i));
 
-	{
+										i++;
 
-			putchar(ch);
+											}
 
-	}
-
-	putchar('\n');
-
-	return (0);
+				putchar(10);
 
 }
