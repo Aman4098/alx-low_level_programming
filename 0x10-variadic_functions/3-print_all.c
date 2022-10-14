@@ -18,27 +18,27 @@
  *
  *      */
 
-void print_c(va_list c
+void print_c(va_list c)
 
-		{
+{
 
-			printf("%c", va_arg(c, int));
+		printf("%c", va_arg(c, int));
 
-			}
+}
 
 
 
-			/**
-			 *
-			 *  * print_s - prints a string
-			 *
-			 *   * @s: string to print
-			 *
-			 *    *
-			 *
-			 *     * Return: void
-			 *
-			 *      */
+/**
+ *
+ *  * print_s - prints a string
+ *
+ *   * @s: string to print
+ *
+ *    *
+ *
+ *     * Return: void
+ *
+ *      */
 
 void print_s(va_list s)
 
@@ -140,48 +140,44 @@ void print_all(const char * const format, ...)
 
 
 
-					char *separator = "";
+						va_start(valist, format);
 
+							i = 0;
 
+								while (format && format[i])
 
-						i = 0;
+										{
 
-							while (format && format[i])
+													j = 0;
 
-									{
+															while (p[j].t != NULL)
 
-												j = 0;
+																		{
 
-														j = 0;
+																						if (*(p[j].t) == format[i])
 
+																										{
 
+																															printf("%s", separator);
 
-																	if (*(p[j].t) == format[i])
+																																			p[j].f(valist);
 
-																					{
+																																							separator = ", ";
 
-																										printf("%s", separator);
+																																											break;
 
-																														p[j].f(valist);
+																																														}
 
-																																		separator = ", ";
+																									j++;
 
-																																						break;
+																											}
 
-																																									}
+																	i++;
 
-																				j++;
+																		}
 
-																						}
+									va_end(valist);
 
-									i++;
+										printf("\n");
 
-										}
-
-	va_end(valist);
-
-		printf("\n");
-
-		}
-
-
+}
