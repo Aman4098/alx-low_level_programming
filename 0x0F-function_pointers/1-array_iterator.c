@@ -4,51 +4,37 @@
 
 /**
  *
- *  * int_index - searches for an integer
+ *  * array_iterator - executes a function given as a
  *
- *   * @array: array to serch through
+ *   * parameter on each element of an array.
  *
- *    * @size: size of array
+ *    * @array: input integer array.
  *
- *     * @cmp: function used to compare
+ *     * @size: size of the array.
  *
- *      *
+ *      * @action: pointer to the function.
  *
- *       * Return: first index for which cmp doesn't return 0, or -1
+ *       * Return: no return.
  *
  *        */
 
-int int_index(int *array, int size, int (*cmp)(int))
+
+
+void array_iterator(int *array, size_t size, void (*action)(int))
 
 {
 
-		int i, r;
+		unsigned int i;
 
 
 
-			if (size > 0 && array && cmp)
+			if (array && action)
 
-					{
 
-								for (i = 0; i < size; i++)
 
-											{
+						for (i = 0; i < size; i++)
 
-															r = cmp(array[i]);
-
-																		if (r)
-
-																							break;
-
-																				}
-
-										if (i < size)
-
-														return (i);
-
-											}
-
-				return (-1);
+										action(array[i]);
 
 }
 
