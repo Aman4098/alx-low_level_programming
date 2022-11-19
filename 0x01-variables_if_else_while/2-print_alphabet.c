@@ -1,16 +1,15 @@
 #include <stdio.h>
-
 /**
- * main -entry point
- *Return: alwayes (0)
+ * main - print alphabet in lower case 
+ * Return : (0) sucesss 
  */
-int main(void)
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+int main (void)
+{ 
+	char ch; 
+		for (ch = 'a' ; ch <= 'z' ; ch++)
+		{
+			putchar(ch);
+		}
 	putchar('\n');
-	return (0);
+return (0);
 }
-
